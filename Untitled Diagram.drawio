@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T03:15:46.258Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NBic29p0hm4kiSUj7ZSb" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T03:26:30.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kB0J_Vwo7nygp8opuTIi" version="23.0.0" type="github">
   <diagram name="Page-1" id="dxBeZ8ypcwGgRa8_q4if">
     <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,10 +12,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TyGoGhr0zNmiB5NswwTf-1" value="Azure Active Directory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TyGoGhr0zNmiB5NswwTf-1" value="&lt;b&gt;Azure Active Directory&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="280" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TyGoGhr0zNmiB5NswwTf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="TyGoGhr0zNmiB5NswwTf-2" target="TyGoGhr0zNmiB5NswwTf-17">
+        <mxCell id="TyGoGhr0zNmiB5NswwTf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="TyGoGhr0zNmiB5NswwTf-2" target="TyGoGhr0zNmiB5NswwTf-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TyGoGhr0zNmiB5NswwTf-25" value="Assign to roles" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TyGoGhr0zNmiB5NswwTf-24">
@@ -34,7 +34,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TyGoGhr0zNmiB5NswwTf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TyGoGhr0zNmiB5NswwTf-3" target="TyGoGhr0zNmiB5NswwTf-17">
+        <mxCell id="TyGoGhr0zNmiB5NswwTf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TyGoGhr0zNmiB5NswwTf-3" target="TyGoGhr0zNmiB5NswwTf-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TyGoGhr0zNmiB5NswwTf-23" value="assign to roles" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TyGoGhr0zNmiB5NswwTf-22">
@@ -61,11 +61,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TyGoGhr0zNmiB5NswwTf-15" value="&lt;b&gt;Resource / Resource group&lt;/b&gt;&lt;br&gt;Access control (IAM)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="70" width="210" height="80" as="geometry" />
+        <mxCell id="TyGoGhr0zNmiB5NswwTf-15" value="&lt;b&gt;Resource / Resource group&lt;/b&gt;&lt;br&gt;Access control (IAM)&amp;nbsp;&lt;br&gt;User or group - roles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="70" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TyGoGhr0zNmiB5NswwTf-17" value="&lt;b&gt;Roles&lt;/b&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;contributor&lt;/li&gt;&lt;li&gt;Owner&lt;/li&gt;&lt;li&gt;Reader&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="320" width="140" height="100" as="geometry" />
+        <mxCell id="TyGoGhr0zNmiB5NswwTf-17" value="&lt;b&gt;Roles (collection of actions)&lt;/b&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;contributor&lt;/li&gt;&lt;li&gt;Owner&lt;/li&gt;&lt;li&gt;Reader&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="655" y="360" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
