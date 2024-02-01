@@ -1,45 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T21:33:16.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9jTbgnOS6DuFLbOBqZnj" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T00:22:39.551Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="bIFCC8hfGh1oFFKHghMR" version="23.0.0" type="github">
   <diagram name="Page-1" id="PmH8x91g7e7saPufSshL">
-    <mxGraphModel dx="2284" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2045" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5FMxJuMMtHIOoVPG739u-2" value="&lt;h1&gt;Generate QR code&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;as a hospital receptionist, I could able to generate a token for the patient for kiosk&lt;/li&gt;&lt;li&gt;It will send request from medtech advance form to &lt;b&gt;&lt;u&gt;TokenFunction/TokenGenerator&lt;/u&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;As argument it will take patient data object&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5FMxJuMMtHIOoVPG739u-2" value="&lt;h1&gt;Generate QR code&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;as a hospital receptionist, I could able to generate a token for the patient for kiosk&lt;/li&gt;&lt;li&gt;It will send request from medtech advance form to &lt;b&gt;&lt;u&gt;TokenFunction/TokenGenerator&lt;/u&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;As argument it will take patient data object&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="190" width="310" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="5FMxJuMMtHIOoVPG739u-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="5FMxJuMMtHIOoVPG739u-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="10" y="170" width="660" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="5FMxJuMMtHIOoVPG739u-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="5FMxJuMMtHIOoVPG739u-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="20" y="180" width="310" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="5FMxJuMMtHIOoVPG739u-5" value="&lt;u style=&quot;&quot;&gt;&lt;b&gt;bpaccs-nx-test1-kioskidentity/TokenFunction/TokenGenerator&lt;/b&gt;&lt;/u&gt;&lt;br&gt;&lt;ol style=&quot;font-weight: bold;&quot;&gt;&lt;li style=&quot;&quot;&gt;Validate Patient&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Generate a token (Guid) and send it back to medtech&lt;/li&gt;&lt;li style=&quot;&quot;&gt;White Patient, token, and state flag to cosmos db database&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="5FMxJuMMtHIOoVPG739u-5" value="&lt;u style=&quot;&quot;&gt;&lt;b&gt;bpaccs-nx-test1-kioskidentity/TokenFunction/TokenGenerator&lt;/b&gt;&lt;/u&gt;&lt;br&gt;&lt;ol style=&quot;font-weight: bold;&quot;&gt;&lt;li style=&quot;&quot;&gt;Validate Patient&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Generate a token (Guid) and send it back to medtech&lt;/li&gt;&lt;li style=&quot;&quot;&gt;White Patient, token, and state flag to cosmos db database&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="350" y="180" width="310" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="5FMxJuMMtHIOoVPG739u-6" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="5FMxJuMMtHIOoVPG739u-6" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="-250" y="230" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="5FMxJuMMtHIOoVPG739u-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5FMxJuMMtHIOoVPG739u-6" target="5FMxJuMMtHIOoVPG739u-4">
+        <mxCell id="5FMxJuMMtHIOoVPG739u-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5FMxJuMMtHIOoVPG739u-6" target="5FMxJuMMtHIOoVPG739u-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5FMxJuMMtHIOoVPG739u-8" value="http request (patient data)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5FMxJuMMtHIOoVPG739u-7">
+        <mxCell id="5FMxJuMMtHIOoVPG739u-8" value="http request (patient data)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5FMxJuMMtHIOoVPG739u-7" vertex="1" connectable="0">
           <mxGeometry x="-0.1754" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5FMxJuMMtHIOoVPG739u-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5FMxJuMMtHIOoVPG739u-9" target="5FMxJuMMtHIOoVPG739u-10">
+        <mxCell id="5FMxJuMMtHIOoVPG739u-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5FMxJuMMtHIOoVPG739u-9" target="5FMxJuMMtHIOoVPG739u-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5FMxJuMMtHIOoVPG739u-12" value="measurement + token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5FMxJuMMtHIOoVPG739u-11">
+        <mxCell id="5FMxJuMMtHIOoVPG739u-12" value="measurement + token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5FMxJuMMtHIOoVPG739u-11" vertex="1" connectable="0">
           <mxGeometry x="0.2831" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5FMxJuMMtHIOoVPG739u-9" value="Kiosk" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.kiosk;" vertex="1" parent="1">
+        <mxCell id="5FMxJuMMtHIOoVPG739u-9" value="Kiosk" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.kiosk;" parent="1" vertex="1">
           <mxGeometry x="-250" y="440" width="65" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="5FMxJuMMtHIOoVPG739u-10" value="Send measurements to to server&lt;br&gt;&lt;ol&gt;&lt;li&gt;kiosk could init / measurement trigger&lt;/li&gt;&lt;li&gt;add to the bus queue&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="5FMxJuMMtHIOoVPG739u-10" value="Send measurements to to server&lt;br&gt;&lt;ol&gt;&lt;li&gt;kiosk could init / measurement trigger&lt;/li&gt;&lt;li&gt;add to the bus queue&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry y="410" width="670" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="etlj2lffXA_fAsKWnnev-1" value="&lt;h1&gt;kioskcloudint&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;ConvertMeasurementToFhir&lt;/li&gt;&lt;li&gt;GetPatient&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;measurement&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;PostBundleToFhirServer&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;PostPatientTelecomPreference&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;RunOrchestrator&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;SendBundleToServiceBusQueue&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="590" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="etlj2lffXA_fAsKWnnev-2" value="&lt;h1&gt;kioskidentity&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;CheckToken&lt;/li&gt;&lt;li&gt;DailyPurgeCosmosDBFunction&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;ResolveToken&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;TokenGenerator&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="590" width="205" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="etlj2lffXA_fAsKWnnev-3" value="&lt;h1&gt;kiosknotify&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;SendEmail&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;SendMeasurementCompletedEmail&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;SendMeasurementCompletedSms&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;SendQRCodeEmail&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;SendQRCodeSms&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="820" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="etlj2lffXA_fAsKWnnev-4" value="&lt;h1&gt;kiosksbuspoll&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;GetConfiguration&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;PracticeListBlobChange&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;ServiceBusMonitor&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;ServiceBusPollingCheck&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;ServiceBusPollingGet&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;ServiceBusPollingPost&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-417.5" y="780" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="etlj2lffXA_fAsKWnnev-5" value="&lt;h1&gt;portalint&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;PortalQrCode&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;PracticeIsEnrolled&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="970" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
